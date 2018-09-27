@@ -1,0 +1,33 @@
+{
+  "name": "saaidkhater",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start:server": "nodemon ./bin/www",
+    "start:client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "@rematch/core": "^0.6.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "styled-components": "^3.4.5"
+  },
+  "proxy": "http://127.0.0.1:3000"
+}
